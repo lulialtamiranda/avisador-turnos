@@ -26,7 +26,7 @@ jobs:
           UNA_VEZ: "1"
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          FECHA_LIMITE: "2026-10-21"
+          FECHA_LIMITE: "2026-10-15"
         run: python avisador_turnos.py
 
       - name: Guardar turnos ya avisados
